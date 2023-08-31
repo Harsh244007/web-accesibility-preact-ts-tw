@@ -4,7 +4,7 @@ const ColorContrast = () => {
   return (
     <>
       <h2 className="text-2xl font-bold mb-4">Color Contrast (Dark Mode etc.)</h2>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3"  tabIndex={0}>
         <p>
           Ensuring proper color contrast is essential for users with visual impairments. This includes providing enough contrast between text and background colors to make content readable.
         </p>

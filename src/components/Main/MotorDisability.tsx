@@ -4,7 +4,7 @@ const MotorDisability = () => {
   return (
     <>
       <h2 className="text-2xl font-bold mb-4">Motor Disability (Spoon Theory)</h2>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3" tabIndex={0}>
         <p>
           Consider users who have motor disabilities that affect their ability to use traditional input methods such as a mouse or keyboard. The Spoon Theory is a metaphor that helps explain energy limitations for people with chronic illnesses.
         </p>

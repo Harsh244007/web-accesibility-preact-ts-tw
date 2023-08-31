@@ -2,17 +2,15 @@ import { memo } from "preact/compat";
 
 const KeyboardNavigation = () => {
   const handleEnterKeyPress = (event: any) => {
-    if (event.key === "Enter") {
       window.alert(`${event.key} Key is pressed`);
-    }
-  };
+    };
 
   return (
     <>
       <h2 className="text-2xl font-bold mb-4">
         Keyboard Navigation (tabIndex)
       </h2>
-      <div className="flex flex-col gap-3" onKeyPress={handleEnterKeyPress}>
+      <div className="flex flex-col gap-3" onKeyPress={handleEnterKeyPress}  tabIndex={0}>
         <p>
           Keyboard navigation is essential for users who rely on keyboard input
           or have motor disabilities. Use the <code>tabIndex</code> attribute to

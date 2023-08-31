@@ -4,7 +4,7 @@ const AriaTools = () => {
   return (
     <>
       <h2 className="text-2xl font-bold mb-4">ARIA Tools (Roles and Aria-label)</h2>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3" tabIndex={0}>
         <p>
           ARIA (Accessible Rich Internet Applications) attributes and roles are used to enhance the accessibility of web content for users with disabilities. ARIA tools provide a way to improve the experience for screen reader users, keyboard users, and more.
         </p>

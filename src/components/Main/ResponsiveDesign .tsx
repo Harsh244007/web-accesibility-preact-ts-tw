@@ -4,7 +4,7 @@ const ResponsiveDesign = () => {
   return (
     <>
       <h2 className="text-2xl font-bold mb-4">Responsive Design</h2>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3" tabIndex={0}>
         <p>
           Responsive design ensures your web app works well on various devices and screen sizes, providing a consistent experience for all users.
         </p>

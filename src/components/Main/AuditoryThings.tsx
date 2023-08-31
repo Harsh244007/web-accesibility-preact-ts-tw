@@ -4,7 +4,7 @@ const AuditoryThings = () => {
   return (
     <>
       <h2 className="text-2xl font-bold mb-4">Auditory Things (Transcripts, etc.)</h2>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3" tabIndex={0}>
         <p>
           Consider users who may have auditory disabilities or prefer reading over audio content. Provide alternative formats like transcripts for audio and video content.
         </p>

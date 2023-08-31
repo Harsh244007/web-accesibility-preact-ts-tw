@@ -4,7 +4,7 @@ const TouchTarget = () => {
   return (
     <>
       <h2 className="text-2xl font-bold mb-4">Touch Target</h2>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3" tabIndex={0}>
         <p>
           Designing for touch targets is crucial for users who interact with your app using touch devices such as smartphones and tablets. Touch targets should be large enough and well-spaced to prevent accidental taps.
         </p>

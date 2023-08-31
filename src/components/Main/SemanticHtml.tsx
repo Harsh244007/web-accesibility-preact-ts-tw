@@ -4,7 +4,7 @@ const SemanticHtml = () => {
   return (
     <>
       <h2 className="text-2xl font-bold mb-4">Semantic HTML (Landmarks, Focus Management)</h2>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3" tabIndex={0}>
         <p>
           Using semantic HTML elements helps improve the structure and accessibility of your web content. Semantic elements provide meaning to assistive technologies and aid in navigation.
         </p>
